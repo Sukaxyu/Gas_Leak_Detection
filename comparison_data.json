@@ -1,0 +1,172 @@
+{
+  "threshold": {
+    "F17-20000ppm": {
+      "mu": 0.4170416030463317,
+      "sigma": 0.00012438933938754994,
+      "threshold": 0.41741477106449437,
+      "n_total_flagged": 9545,
+      "n_false_alarm_points": 0,
+      "false_alarm_segments": [],
+      "alarm_time": 862.5,
+      "latency": 166.5,
+      "false_alarm_before_onset": false
+    },
+    "F17-2000ppm": {
+      "mu": 0.3374833290013104,
+      "sigma": 0.0001558865046978121,
+      "threshold": 0.33795098851540384,
+      "n_total_flagged": 10404,
+      "n_false_alarm_points": 0,
+      "false_alarm_segments": [],
+      "alarm_time": 1138.5,
+      "latency": 154.5,
+      "false_alarm_before_onset": false
+    },
+    "F17-200ppm": {
+      "mu": 0.5563606602429662,
+      "sigma": 0.0005311545227199103,
+      "threshold": 0.5579541238111259,
+      "n_total_flagged": 4284,
+      "n_false_alarm_points": 370,
+      "false_alarm_segments": [
+        {
+          "t_start": 534.0,
+          "t_end": 537.5,
+          "n_points": 8,
+          "duration_s": 4.0
+        },
+        {
+          "t_start": 576.0,
+          "t_end": 576.0,
+          "n_points": 1,
+          "duration_s": 0.5
+        },
+        {
+          "t_start": 596.0,
+          "t_end": 598.0,
+          "n_points": 5,
+          "duration_s": 2.5
+        },
+        {
+          "t_start": 622.0,
+          "t_end": 624.5,
+          "n_points": 6,
+          "duration_s": 3.0
+        },
+        {
+          "t_start": 674.0,
+          "t_end": 678.0,
+          "n_points": 9,
+          "duration_s": 4.5
+        },
+        {
+          "t_start": 821.5,
+          "t_end": 824.0,
+          "n_points": 6,
+          "duration_s": 3.0
+        },
+        {
+          "t_start": 846.0,
+          "t_end": 850.5,
+          "n_points": 10,
+          "duration_s": 5.0
+        },
+        {
+          "t_start": 858.0,
+          "t_end": 870.5,
+          "n_points": 26,
+          "duration_s": 13.0
+        },
+        {
+          "t_start": 946.0,
+          "t_end": 950.0,
+          "n_points": 9,
+          "duration_s": 4.5
+        },
+        {
+          "t_start": 1005.0,
+          "t_end": 1149.5,
+          "n_points": 290,
+          "duration_s": 145.0
+        }
+      ],
+      "alarm_time": 1043.5,
+      "latency": -106.5,
+      "false_alarm_before_onset": true
+    },
+    "F18-2000ppm": {
+      "mu": 4.369168136124392,
+      "sigma": 0.007677625624140697,
+      "threshold": 4.392201012996814,
+      "n_total_flagged": 18760,
+      "n_false_alarm_points": 915,
+      "false_alarm_segments": [
+        {
+          "t_start": 454.0,
+          "t_end": 457.0,
+          "n_points": 7,
+          "duration_s": 3.5
+        },
+        {
+          "t_start": 472.0,
+          "t_end": 494.0,
+          "n_points": 36,
+          "duration_s": 18.0
+        },
+        {
+          "t_start": 500.0,
+          "t_end": 935.5,
+          "n_points": 872,
+          "duration_s": 436.0
+        }
+      ],
+      "alarm_time": 520.5,
+      "latency": -415.5,
+      "false_alarm_before_onset": true
+    }
+  },
+  "svm": {
+    "F17-20000ppm": {
+      "alarm_time": 351.0,
+      "latency": -345.0,
+      "false_alarm_before_onset": true,
+      "n_high_prob_before_onset": 10
+    },
+    "F17-2000ppm": {
+      "alarm_time": 596.0,
+      "latency": -388.0,
+      "false_alarm_before_onset": true,
+      "n_high_prob_before_onset": 18
+    },
+    "F17-200ppm": {
+      "alarm_time": 10950.5,
+      "latency": 9800.5,
+      "false_alarm_before_onset": false,
+      "n_high_prob_before_onset": 0
+    },
+    "F18-2000ppm": {
+      "alarm_time": 329.5,
+      "latency": -606.5,
+      "false_alarm_before_onset": true,
+      "n_high_prob_before_onset": 7
+    }
+  },
+  "lstm": {
+    "F17-20000ppm": {
+      "alarm_time": 788,
+      "latency": 92
+    },
+    "F17-2000ppm": {
+      "alarm_time": 1069,
+      "latency": 85
+    },
+    "F17-200ppm": {
+      "alarm_time": 1232,
+      "latency": 82
+    },
+    "F18-2000ppm": {
+      "alarm_time": 1040,
+      "latency": 104
+    }
+  }
+}

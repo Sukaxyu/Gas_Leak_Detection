@@ -1,0 +1,38 @@
+[
+  {
+    "file":          "TEST.csv",
+    "sep":           ",",
+    "col_offset":    0,
+    "onset_s":       696,
+    "h2_end_s":      3396,
+    "concentration": "20 000 ppm",
+    "sensor":        "Sens1"
+  },
+  {
+    "file":          "TEST.csv",
+    "sep":           ",",
+    "col_offset":    5,
+    "onset_s":       984,
+    "h2_end_s":      6300,
+    "concentration": "2 000 ppm",
+    "sensor":        "Sens1"
+  },
+  {
+    "file":          "Sens1_200ppm.csv",
+    "sep":           ",",
+    "col_offset":    0,
+    "onset_s":       1150,
+    "h2_end_s":      10500,
+    "concentration": "200 ppm",
+    "sensor":        "Sens1"
+  },
+  {
+    "file":          "Sens2_2000ppm.csv",
+    "sep":           ",",
+    "col_offset":    0,
+    "onset_s":       936,
+    "h2_end_s":      3600,
+    "concentration": "2 000 ppm",
+    "sensor":        "Sens2"
+  }
+]

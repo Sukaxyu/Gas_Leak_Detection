@@ -1,0 +1,15 @@
+LSTM Autoencoder — H2 Detection Results
+Parameters: WIN=30s  PERSIST=60s  MULT=2.5  FRAC=0.65
+Features: I_H2, I_Ref, lam_H2, lam_Ref, ratio, delta_lam
+Training: pre-H2 N2 only (t=0 to onset)
+
+Experiment                  Conc    Onset    Alarm   Latency
+────────────────────────────────────────────────────────────
+  F17 — 20 000 ppm     20 000 ppm     696 s     774 s      +78 s
+  F17 — 2 000 ppm      2 000 ppm     984 s    1050 s      +66 s
+  F17 — 200 ppm          200 ppm    1150 s    1250 s     +100 s
+  F18 — 2 000 ppm      2 000 ppm     936 s    1058 s     +122 s
+────────────────────────────────────────────────────────────
+  Mean latency: +91.6 s
+  Min  latency: +66.5 s
+  Max  latency: +122.5 s
