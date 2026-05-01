@@ -1,6 +1,6 @@
-# Gas Leak Detection via FBG Optical Sensors
+# Gas Leak Detection via Optical Sensors
 
-Anomaly-detection pipeline for fibre Bragg grating (FBG) optical sensors.
+Anomaly-detection pipeline for optical sensors.
 Trains an LSTM Autoencoder on reference-gas baseline data only, then flags
 sustained deviations in reconstruction error as leak events.
 Includes an SVM baseline and a fixed-threshold baseline for comparison.
